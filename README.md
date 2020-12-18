@@ -8,6 +8,12 @@ Action: select song action
 
 ### jsconfig.json to set folder as /src
 
+### src/actions
+
+- /index.js
+
+### src/reducers
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
