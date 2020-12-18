@@ -11,8 +11,11 @@ Action: select song action
 ### src/actions
 
 - /index.js
+- /types.js [hold type of actions]
 
 ### src/reducers
+
+- /index.js
 
 # Getting Started with Create React App
 
