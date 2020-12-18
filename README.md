@@ -1,3 +1,13 @@
+# Author Note:
+
+This project is using React-Redux which has two main components (SongList and SongDetail)
+Redux side: reducer ( songlist, selectedSong)
+Action: select song action
+
+# Organising
+
+### jsconfig.json to set folder as /src
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
