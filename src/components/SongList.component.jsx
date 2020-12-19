@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import { connect } from 'react-redux';
 import { selectSong } from 'actions';
+import SongDetail from 'components/SongDetail.compoenet';
 
 class SongList extends Component {
   renderList() {
@@ -16,11 +17,14 @@ class SongList extends Component {
   }
 
   render() {
-    console.log(this.props);
+    // console.log(this.props);
     return (
       <div>
         <h1>Song List</h1>
         <div className="song-wrapper">{this.renderList()}</div>
+        <div className="song-detail">
+          <SongDetail />
+        </div>
       </div>
     );
   }
